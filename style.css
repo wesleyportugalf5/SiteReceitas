@@ -28,12 +28,18 @@ img {
     display: block;
 }
 
+/* Body */
+
 /* Header/Cabeçalho */
 
 header {
     display: flex;
-    justify-content: space-around;
+    margin: auto;
+    max-width: 1120px;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 .logotipo {
@@ -45,6 +51,86 @@ header {
     column-gap: 25px;
 }
 
+.menu li {
+    text-decoration: underline;
+    color: #D93F13;
+}
+
 .btnContato {
     padding: 10px 35px;
+    background-color: #D93F13;
+    border: #D93F13;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnContato p {
+    font-size: 18px;
+}
+
+/* Main/Conteúdo Principal */
+
+main {
+    margin: auto;
+    max-width: 1120px;
+    padding-bottom: 40px;
+}
+
+/* Banner */
+
+.banner {
+    height: 40vh;
+    position: relative;
+    background: url(imagens/carne-de-panela.png) center / cover no-repeat;
+    border-radius: 0.25rem;
+}
+
+.bannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0.25rem;
+}
+
+.bannerTexto {
+    color: white;
+    text-align: center;
+}
+
+/* Receitas */
+
+.receitas {
+    display: flex;
+    column-gap: 114px;
+    padding-top: 40px;
+}
+
+.receitasDestaque {
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.receitas img {
+    width: 291px;
+    height: 160px;
+    border-radius: 0.25rem;
+}
+
+/* Footer/Rodapé */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D93F13;
+    color: white;
+    height: 60px;
 }
