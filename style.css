@@ -18,14 +18,14 @@ a {
     color: black;
 }
 
-/* h1 {
-    text-align: center;
-    margin-top: 50px;
-} */
-
 img {
     max-width: 100%;
     display: block;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
 }
 
 /* Body */
@@ -51,8 +51,9 @@ header {
     column-gap: 25px;
 }
 
-.menu li {
-    text-decoration: underline;
+.menu a:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
     color: #D93F13;
 }
 
@@ -63,6 +64,11 @@ header {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.btnContato:hover {
+    transition: 0.4s;
+    background-color: #b03310;
 }
 
 .btnContato p {
@@ -76,6 +82,8 @@ main {
     max-width: 1120px;
     padding-bottom: 40px;
 }
+
+/* Página Início */
 
 /* Banner */
 
@@ -108,20 +116,138 @@ main {
 
 .receitas {
     display: flex;
-    column-gap: 114px;
     padding-top: 40px;
+    justify-content: space-between;
+}
+
+.receitas h3 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.receitasCategorias li {
+    padding-bottom: 5px;
+}
+
+.receitasCategorias a:hover {
+    color: #D93F13;
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 .receitasDestaque {
     display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.receitasUm {
+    display: flex;
     column-gap: 15px;
-    flex-wrap: wrap;
+}
+
+.receitasDois {
+    display: flex;
+    column-gap: 15px;
 }
 
 .receitas img {
     width: 291px;
     height: 160px;
     border-radius: 0.25rem;
+}
+
+.receitasDestaque h4 {
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 12px;
+}
+
+.receitasDestaque p {
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+/* Página Sobre */
+
+.saibaMais {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.saibaMais img {
+    width: 500px;
+    height: 350px;
+    border-radius: 0.25rem;
+}
+
+.vejaTambemP {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.vejaTambemReceitas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vejaTambemReceitas h4 {
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 12px;
+}
+
+.vejaTambemReceitas p {
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+.vejaTambemReceitas img {
+    width: 363px;
+    height: 180px;
+    border-radius: 0.25rem;
+}
+
+/* Página Categorias */
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 35px;
+    padding-bottom: 192px;
+}
+
+.categorias div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 353px;
+    height: 80px;
+    border-radius: 0.25rem;
+    background-color: #D93F13;
+    cursor: pointer;
+}
+
+.categorias div:hover {
+    transition: 0.4s;
+    background-color: #b03310;
+}
+
+.categorias a {
+    color: white;
+}
+
+
+.categorias h4 {
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.categorias p {
+    font-size: 15px;
 }
 
 /* Footer/Rodapé */
@@ -133,4 +259,8 @@ footer {
     background-color: #D93F13;
     color: white;
     height: 60px;
+}
+
+footer p {
+    font-size: 17px;
 }
