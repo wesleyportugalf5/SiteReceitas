@@ -36,9 +36,10 @@
     <!-- Main/Conteúdo Principal -->
     <main>
         <!-- Saiba Mais -->
-        <section class="saibaMais">
+        <section class="contato">
+            <!-- Contato Texto -->
             <div>
-                <h1>As melhores receitas</h1>
+                <h1>Entre em contato</h1>
                 <br>
                 <p>Somos uma equipe de estudantes de gastronômia que decidimos compartilhar receitinhas deliciosas e
                     fáceis de fazer.
@@ -47,15 +48,24 @@
                 <p>
                     Estamos no último semestre da faculdade e em breve estaremos formados. Sejam bem-vindos.
                 </p>
-                <br>
-                <!-- btn Contato -->
-                <a href="contato.html">
-                    <button class="btnContato">
-                        <p>Contato</p>
-                    </button>
-                </a>
             </div>
-            <img src="../imagens/carne-moida.jpg" alt="">
+            <!-- Contato Formulário -->
+            <form class="formulario">
+                <div>
+                    <label html="name" class="formLabel">Seu Nome</label>
+                    <input type="text" name="name" id="name" class="formInput">
+                </div>
+                <div>
+                    <label html="email" class="formLabel">Seu Email</label>
+                    <input type="text" name="email" id="email" class="formInput">
+                </div>
+                <div>
+                    <label html="message" class="formLabel">Mensagem</label>
+                    <textarea name="message" id="message" class="formTextArea"></textarea>
+                </div>
+                <button type="
+                submit" class="formBtn">Enviar</button>
+            </form>
         </section>
         <!-- Veja Também -->
         <section class="vejaTambem">

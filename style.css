@@ -84,6 +84,70 @@ main {
     padding-bottom: 40px;
 }
 
+/* Página Contato */
+
+.contato {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    width: 679px;
+    height: 417px;
+    border-radius: 0.25rem;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.formLabel {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+
+.formInput {
+    border-radius: 0.25rem;
+    background-color: #F8FAFC;
+    border-width: 1px;
+    border-color: #e2e8f0;
+    border-style: solid;
+    height: 25px;
+}
+
+.formTextArea {
+    border-radius: 0.25rem;
+    border-width: 1px;
+    background-color: #F8FAFC;
+    border-color: #e2e8f0;
+    height: 120px;
+}
+
+.formBtn {
+    border-radius: 0.25rem;
+    color: white;
+    background-color: #D93F13;
+    border: none;
+    height: 40px;
+    width: 367px;
+    cursor: pointer;
+}
+
+.formBtn:hover {
+    transition: 0.4s;
+    background-color: #b03310;
+}
+
 /* Página Início */
 
 /* Banner */
