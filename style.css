@@ -359,7 +359,7 @@ main {
 
 .passosLinha {
     /* width: 1025px; */
-    width: 603px;
+    width: 574px;
     height: 2px;
     background-color: #cbd5e1;
 }
@@ -379,6 +379,23 @@ main {
     background-color: #cbd5e1;
 }
 
+.maisInformacoesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maisInformacoesSeta {
+    display: flex;
+    column-gap: 5px;
+}
+
+.maisInformacoesSeta img {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
 /* Footer/Rodapé */
 
 footer {
@@ -393,3 +410,4 @@ footer {
 footer p {
     font-size: 17px;
 }
+
