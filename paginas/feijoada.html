@@ -137,7 +137,7 @@
                 </div>
             </div>
             <!-- Ingredientes/Mais Informações -->
-            <div>
+            <div class="ingredientesMaisInformacoes">
                 <!-- Ingredientes -->
                 <div class="ingredientes">
                     <h2>Ingredientes</h2>
@@ -182,22 +182,25 @@
                     <div class="maisInformacoesHeader">
                         <h3>Mais Informações</h3>
                         <div class="maisInformacoesSeta">
-                            <img src="../imagens/setaBaixo.png" alt="">
-                            <img src="../imagens/setaCima.png" alt="">
+                            <img src="../imagens/setaBaixo.png" alt="" onclick="mostrarInformacoes()">
+                            <img src="../imagens/setaCima.png" alt="" onclick="ocultarInformacoes()">
                         </div>
                     </div>
-                    <p>A feijoada fica ainda mais saborosa no dia seguinte do cozimento. Planeje 3 dias para o preparo
-                        da
-                        feijoada: <br><br>
-                        Dia 1 - Faça a dessalga das carnes. <br><br>
-                        Dia 2 - Cozinhe o feijão e as carnes. Armazene a panela na geladeira (se preferir, divida a
-                        feijoada
-                        em panelas menores para armazenar).<br><br>
-                        Dia 3 - Sirva a feijoada com os acompanhamentos: retire a feijoada da geladeira e leve ao fogo
-                        médio
-                        até começar a ferver, abaixe o fogo e deixe aquecer por 20 minutos, mexendo de vez em quando
-                        delicadamente para evitar que o feijão grude no fundo da panela.
-                    </p>
+                    <div class="maisInformacoesLinha"></div>
+                    <div id="maisInformacoesBody">
+                        <p>A feijoada fica ainda mais saborosa no dia seguinte do cozimento. Planeje 3 dias para o preparo
+                            da
+                            feijoada: <br><br>
+                            Dia 1 - Faça a dessalga das carnes. <br><br>
+                            Dia 2 - Cozinhe o feijão e as carnes. Armazene a panela na geladeira (se preferir, divida a
+                            feijoada
+                            em panelas menores para armazenar).<br><br>
+                            Dia 3 - Sirva a feijoada com os acompanhamentos: retire a feijoada da geladeira e leve ao fogo
+                            médio
+                            até começar a ferver, abaixe o fogo e deixe aquecer por 20 minutos, mexendo de vez em quando
+                            delicadamente para evitar que o feijão grude no fundo da panela.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -244,7 +247,7 @@
         <p> Receitas Deliciosas | Site desenvolvido por Wesley Portugal</p>
     </footer>
     <!-- JavaScript -->
-    <script src="index.js"></script>
+    <script src="../index.js"></script>
 </body>
 
 </html>

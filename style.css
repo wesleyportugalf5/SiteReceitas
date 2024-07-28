@@ -335,9 +335,12 @@ main {
 
 .preparoReceita {
     display: flex;
-    column-gap: 70px;
     justify-content: space-between;
     padding-bottom: 40px;
+}
+
+.instrucoes {
+    max-width: 520px;
 }
 
 .passosReceita {
@@ -358,10 +361,13 @@ main {
 }
 
 .passosLinha {
-    /* width: 1025px; */
-    width: 574px;
+    width: 418px;
     height: 2px;
     background-color: #cbd5e1;
+}
+
+.ingredientesMaisInformacoes {
+    width: 500px;
 }
 
 .ingredientes div {
@@ -373,8 +379,7 @@ main {
 }
 
 .ingredientesLinha {
-    /* width: 1025px; */
-    width: 350px;
+    width: 500px;
     height: 2px;
     background-color: #cbd5e1;
 }
@@ -394,6 +399,17 @@ main {
     height: 32px;
     width: 32px;
     cursor: pointer;
+}
+
+.maisInformacoesLinha {
+    width: 500px;
+    height: 2px;
+    background-color: #cbd5e1;
+}
+
+#maisInformacoesBody {
+    display: none;
+    padding-top: 18px;
 }
 
 /* Footer/Rodapé */
