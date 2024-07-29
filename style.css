@@ -152,30 +152,55 @@ main {
 
 /* Banner */
 
-.banner {
+#bannerPrincipal {
+    position: relative;
     width: 1120px;
     height: 255px;
     background: url(imagens/carne-de-panela.png) center / cover no-repeat;
     border-radius: 0.25rem;
 }
 
-.bannerBlackOpacity {
+#bannerFeijoada {
+    position: relative;
     width: 1120px;
     height: 255px;
-    background-color: rgba(0, 0, 0, 0.238);
+    background: url(imagens/comida-brasileira-feijoada.jpg) center / cover no-repeat;
+    border-radius: 0.25rem;
+    display: none;
+}
+
+.bannerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.283);
+    border-radius: 0.25rem;
 }
 
 .bannerTexto {
-    
+    color: white;
+    text-align: center;
 }
 
-
-/* cor seta antiga : #999999 */
-
-.bannerSetas img {
-    width: 60px;
-    height: 60px;
+.bannerSetaEsquerda {
+    margin-right: 1025px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
+    position: absolute;
+}
+
+.bannerSetaDireita {
+    margin-left: 1025px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
 }
 
 /* Receitas */

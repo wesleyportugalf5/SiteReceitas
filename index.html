@@ -36,11 +36,36 @@
     <!-- Main/Conteúdo Principal -->
     <main>
         <!-- Banner -->
-        <section class="banner">
-            <div class="bannerBlackOpacity"></div>
-            <div class="bannerTexto">
-                <h1>Receitas Deliciosas</h1>
-                <p>de da água na boca</p>
+        <!-- Banner Principal -->
+        <section id="bannerPrincipal">
+            <div class="bannerContainer">
+                <!-- Banner Seta Esquerda -->
+                <img src="imagens/setaEsquerda.png" alt="" class="bannerSetaEsquerda" onclick="voltarBannerPrincipal()">
+                <!-- Banner Principal Texto -->
+                <div class="bannerTexto">
+                    <h1>Receitas Deliciosas</h1>
+                    <p>de da água na boca</p>
+                </div>
+                <!-- Banner Seta Direita -->
+                <img src="imagens/setaDireita.png" alt="" class="bannerSetaDireita" onclick="avancarBannerPrincipal()">
+            </div>
+            </div>
+        </section>
+        <!-- Banner Feijoada -->
+        <section id="bannerFeijoada">
+            <div class="bannerContainer">
+                <!-- Banner Seta Esquerda -->
+                <img src="imagens/setaEsquerda.png" alt="" class="bannerSetaEsquerda" onclick="voltarBannerFeijoada()">
+                <a href="paginas/feijoada.html">
+                    <!-- Banner Feijoada Texto -->
+                    <div class="bannerTexto">
+                        <h1>Feijoada Caseira</h1>
+                        <p>de da água na boca</p>
+                    </div>
+                </a>
+                <!-- Banner Seta Direita -->
+                <img src="imagens/setaDireita.png" alt="" class="bannerSetaDireita" onclick="avancarBannerFeijoada()">
+            </div>
             </div>
         </section>
         <!-- Receitas -->
